@@ -1,0 +1,23 @@
+{
+  "name": "xp-xls-to-ofx",
+  "version": "1.0.0",
+  "description": "Script to translate XP Investimentos bank statements from XLS to OFX format",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "XLS",
+    "OFX",
+    "XP",
+    "Investimentos"
+  ],
+  "author": "Rafael Pierri",
+  "license": "ISC",
+  "dependencies": {
+    "aguid": "^2.0.0",
+    "handlebars": "^4.0.11",
+    "xlsx": "^0.11.16"
+  }
+}
